@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 50px auto;
+  width: 1000px;
+  height: 500px;
+  background: orange;
+}
+
+.test1 {
+  width: 70%;
+  background: lime;
+  height: 10%;
+  float: left;
+}
+
+.test2 {
+  width: 30%;
+  background: yellow;
+  height: 10%;
+  float: left;
+
+}
+
+@media screen and (max-width:940px) {
+  .main {
+    background: brown;
+    width: 800px;
+  }
+  .test1 {
+    background: red;
+    width: 30%;
+  }
+
+  .test2 {
+    background: cyan;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .main {
+    background: blue;
+    width: 460px;
+  }
+  .test1 {
+    background: black;
+    width: 50%;
+  }
+
+  .test2 {
+    background: magenta;
+    width: 50%;
+  }
+}
